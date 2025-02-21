@@ -1,0 +1,1107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+#navbar{
+    height: 60px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-logo{
+    height: 60px;
+    width: 113px;
+}
+#logo{
+    height: 50px;
+    width: 113px;
+    background-image: url(Amazon-Logo.png);
+    background-size: cover;
+    padding-top: 8px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.border2{
+    border: 2px solid transparent;
+}
+.border2:hover{
+    border: 2px solid rgb(255, 154, 3);
+}
+/*Box 2*/
+#deliver{
+    color: #CCCCCC;
+    font-size: 12px;
+    height: 14px;
+    text-align: center;
+}
+#india{
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    height: 16px;
+    font-weight: bold;
+}
+#paragraphdeliver{
+    padding-left: 10px;
+}
+#box2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15.2px;
+}
+#indiapara{
+    padding-left: 3px;
+}
+
+/*Box 3*/
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 620px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#allbox{
+    height: 40px;
+    width: 51.4px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #E6E6E6;
+    border: none;
+}
+#searchbar{
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+}
+#iconbox{
+    height: 40px;
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 163, 26);
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*Box 4*/
+#country{
+    display: flex;
+    padding-top: 15.2px;
+}
+#flag{
+    height: 16.2px;
+    width: 21.6px;
+    background-image: url(USA\ Flag.png);
+    background-size: cover;
+}
+#language{
+    padding-left: 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/*Box 5*/
+#signinpara{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#account{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+}
+#signin{
+    padding-left: 5px;
+}
+/*Box 6*/
+#returns{
+    height: 14px;
+    width: 58.95px;
+}
+#return{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+#orders{
+    height: 15px;
+    width: 75px;
+}
+#order{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#box4{
+    padding-top: 4px;
+}
+#box5{
+    padding-top: 2px;
+}
+#box6{
+    display: flex;
+}
+#cart{
+    color: #FFFFFF;
+    display: flex;
+    font-size: 28px;
+    padding-top: 10px;
+}
+#textcart{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    padding-top: 25px;
+}
+
+#panel{
+    height: 39px;
+    background-color: #0f1d1d;
+    display: flex;
+}
+#panelbox1{
+    color: #FFFFFF;
+    height: 39px;
+    width: 38.41px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+#panelbox2{
+    color: #FFFFFF;
+    height: 39px;
+    width: 102.81px;
+    display: flex;
+    align-items: center;
+}
+#panelbox3{
+    color: #FFFFFF;
+    height: 39px;
+    width: 128.34px;
+    display: flex;
+    align-items: center;
+}
+#panelbox4{
+    color: #FFFFFF;
+    height: 39px;
+    width: 69.79px;
+    display: flex;
+    align-items: center;
+}
+#panelbox5{
+    color: #FFFFFF;
+    height: 39px;
+    width: 80.99px;
+    display: flex;
+    align-items: center;
+}
+#panelbox6{
+    color: #FFFFFF;
+    height: 39px;
+    width: 49.37px;
+    display: flex;
+    align-items: center;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#menuicon{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+#herosection{
+    background-image: url(Big\ Box.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#strip{
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#striptext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#in{
+    font-size: 14px;
+    color: #007185;
+}
+
+
+
+#shop-section{
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxline1{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    padding-top:15px;
+    margin-top: 10px;
+}
+#imagebox3{
+    height: 280px;
+    width: 300px;
+    background-image: url(CPU.jpg);
+    background-size: cover;
+}
+#box3heading{
+    padding-bottom: 20px;
+}
+#box3line1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#bottomline{
+    margin-top: 55px;
+}
+#shopnow{
+    color: #007185;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#row1{
+    margin-top: 20px;
+    height: 150px;
+    width: 290px;
+    display: flex;
+}
+#row1box1{
+    height: 150px;
+    width: 150px;
+    background-image: url(Headsets.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row1box2{
+    height: 150px;
+    width: 145px;
+    background-image: url(Keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#row2{
+    height: 150px;
+    width: 290px;
+    margin-top: 20px;
+    display: flex;
+}
+#box1line1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box1heading{
+    padding-bottom: 20px;
+}
+#row2box1{
+    height: 150px;
+    width: 145px;
+    background-image: url(Mice.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row2box2{
+    height: 150px;
+    width: 145px;
+    background-image: url(Chairs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#headsetline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#headset{
+    position: relative;
+    top: 140px;
+}
+#keyboardline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#keyboard{
+    position: relative;
+    top: 140px;
+}
+#miceline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#mice{
+    position: relative;
+    top: 110px;
+}
+#chairsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#chairs{
+    position: relative;
+    top: 110px;
+}
+#bottomline2{
+    position: relative;
+    bottom: 5px;
+}
+#seemore{
+    color: #007185;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#box2line1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box2heading{
+    padding-bottom: 20px;
+}
+#row11{
+    margin-top: 20px;
+    height: 150px;
+    width: 290px;
+    display: flex;
+}
+#row11box11{
+    height: 150px;
+    width: 145px;
+    background-image: url(Jeans.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row11box21{
+    height: 150px;
+    width: 145px;
+    background-image: url(Tops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#row22{
+    height: 150px;
+    width: 290px;
+    margin-top: 20px;
+    display: flex;
+}
+#box21line11{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box1heading{
+    padding-bottom: 20px;
+}
+#row21box11{
+    height: 150px;
+    width: 145px;
+    background-image: url(Dresses.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row22box22{
+    height: 150px;
+    width: 145px;
+    background-image: url(Shoes.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#jeans{
+    position: relative;
+    top: 100px;   
+}
+#jeansline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#topsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#tops{
+    position: relative;
+    top: 100px;
+}
+#dressesline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#dresses{
+    position: relative;
+    top: 100px;
+}
+#shoesline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#shoes{
+    position: relative;
+    top: 100px;
+}
+#bottomline2{
+    position: relative;
+    bottom: 5px;
+}
+#seemore{
+    color: #007185;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#box4line1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box4heading{
+    padding-bottom: 20px;
+}
+#row111{
+    margin-top: 20px;
+    height: 150px;
+    width: 290px;
+    display: flex;
+}
+#row111box111{
+    height: 150px;
+    width: 145px;
+    background-image: url(Dining.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row111box211{
+    height: 150px;
+    width: 145px;
+    background-image: url(Home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#row222{
+    height: 150px;
+    width: 290px;
+    margin-top: 20px;
+    display: flex;
+}
+#box211line111{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#box1heading{
+    padding-bottom: 20px;
+}
+#row211box111{
+    height: 150px;
+    width: 145px;
+    background-image: url(Kitchen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#row222box222{
+    height: 150px;
+    width: 145px;
+    background-image: url(Health.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#dining{
+    position: relative;
+    top: 100px;   
+}
+#diningline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#homeline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#home{
+    position: relative;
+    top: 100px;
+}
+#kitchenline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#kitchen{
+    position: relative;
+    top: 100px;
+}
+#healthline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#health{
+    position: relative;
+    top: 100px;
+}
+#bottomline3{
+    position: relative;
+    bottom: 5px;
+}
+#seemore{
+    color: #007185;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#second{
+    height: 1000px;
+    width: auto;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondclass{
+    height: 420px;
+    width: 23%;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    padding-top:15px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#gadgetinnerbox1{
+    background-image: url(Smartphones.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 300px;
+}
+#gadgetouterbox2{
+    margin-top: 40px;
+    display: flex;
+}
+#gadgetinnerbox2{
+    height: 80px;
+    width: 100px;
+    background-image: url(Tablets.jpg);
+    background-size: cover;
+    margin-right: 5px;
+}
+#gadgetinnerbox3{
+    height: 80px;
+    width: 100px;
+    background-image: url(Laptops.jpg);
+    background-size: cover;
+    margin-right: 5px;
+}
+#gadgetinnerbox4{
+    height: 80px;
+    width: 100px;
+    background-image: url(TVs.jpg);
+    background-size: cover;
+}
+#bottomline4{
+    position: relative;
+    top: 40px;
+}
+#smartphonesline{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0F1111;
+}
+#smartphones{
+    position: relative;
+    top: 183px;
+}
+#tabletsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#tablets{
+    position: relative;
+    top: 90px;
+}
+#laptopsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#laptops{
+    position: relative;
+    top: 90px;
+}
+#TVsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#TVs{
+    position: relative;
+    top: 90px;
+}
+#beautybox{
+    height: 280px;
+    width: 300px;
+    background-image: url(Beauty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#toysbox{
+    height: 280px;
+    width: 300px;
+    background-image: url(Toys.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottomline5{
+    position: relative;
+    top: 58px;
+}
+#dressrow1{
+    height: 180px;
+    width: 300px;
+    display: flex;
+}
+#dressrow11{
+    height: 150px;
+    width: 145px;
+    background-image: url(Dresses1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#dressline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#dress{
+    position: relative;
+    top: 100px;
+}
+#knitrow{
+    height: 150px;
+    width: 145px;
+    background-image: url(Knits.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#knitsline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#knits{
+    position: relative;
+    top: 100px;
+}
+#bottomline5{
+    position: relative;
+    bottom: 5px;
+}
+#jacketrow1{
+    height: 180px;
+    width: 300px;
+    display: flex;
+}
+#jacketrow11{
+    height: 150px;
+    width: 145px;
+    background-image: url(Jackets.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#jacketline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#jacket{
+    position: relative;
+    top: 100px;
+}
+#jewelry11{
+    height: 150px;
+    width: 145px;
+    background-image: url(Jewelry.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+#jewelry{
+    position: relative;
+    top: 100px;
+}
+#jewelryline{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1111;
+}
+#bottomline6{
+    position: relative;
+    bottom: 23px;
+}
+
+
+#innerslit1{
+    height: 300px;
+    width: 100%;
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#coreinnerslit1{
+    background-color: white;
+    height: 250px;
+    width: 97%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#headingmario{
+    height: 28px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+#imageslit{
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+}
+#mario1{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario2{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario3{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario4{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario5{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 8.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario6{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 6.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#mario7{
+    height: 200px;
+    width: 200px;
+    background-image: url(Mario\ Image\ 7.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#bottomline10{
+    position: relative;
+    top: 32px;
+}
+
+#furniturebox{
+    height: 280px;
+    width: 300px;
+    background-image: url(Furniture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#watchbox{
+    height: 280px;
+    width: 300px;
+    background-image: url(watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bottomline11{
+    position: relative;
+    top: 32px;
+}
+#gamesbox{
+    height: 280px;
+    width: 300px;
+    background-image: url(games.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#decorationbox{
+    height: 280px;
+    width: 300px;
+    background-image: url(decoration.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 35px;
+}
+#care1{
+    height: 200px;
+    width: 200px;
+    background-image: url(care1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care2{
+    height: 200px;
+    width: 200px;
+    background-image: url(care2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care3{
+    height: 200px;
+    width: 200px;
+    background-image: url(care3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care4{
+    height: 200px;
+    width: 200px;
+    background-image: url(care4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care5{
+    height: 200px;
+    width: 200px;
+    background-image: url(care5.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care6{
+    height: 200px;
+    width: 200px;
+    background-image: url(care6.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#care7{
+    height: 200px;
+    width: 200px;
+    background-image: url(care7.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#beauty1{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty2{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty3{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty4{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty5{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty5.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty6{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty6.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#beauty7{
+    height: 200px;
+    width: 200px;
+    background-image: url(beauty7.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bottomline13{
+    position: relative;
+    top: 25px;
+}
+
+/*Footer*/
+
+#backtotop{
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #324052;
+    color: #FFFFFF;
+    font-size: 0.85rem;
+}
+#footer2{
+    height: 270px;
+    width: 100%;
+    background-color: #273546;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+#list1{
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 4.5px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 5px;
+    color: #dddddd;
+}
+#footer3{
+    height: 50px;
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footerlogo{
+    height: 40px;
+    width: 110px;
+    background-image: url(Amazon-Logo.png);
+    background-size: cover;
+    background-position: center;
+}
+#last{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#anchors{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #dddddd;
+    font-size: 12px;
+}
+#copyright{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #dddddd;
+    font-size: 12px;
+}
